@@ -79,7 +79,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>spring</finalName>
+		<finalName>spring-devops</finalName>
 	</build>
 
 </project>
