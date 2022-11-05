@@ -5,6 +5,7 @@ pipeline {
       jdk 'JAVA_HOME' 
     }
     stages {
+		/*
         stage('Checkout GIT') {
             steps {
                 echo 'Pulling ...' ;
@@ -12,6 +13,7 @@ pipeline {
                  url : 'https://github.com/ElBehiMahdi/spring-devops.git';           
             }
         }
+		*/
         stage('Test mvn') {
             steps {
             	sh """ mvn -DskipTests clean package """ 
