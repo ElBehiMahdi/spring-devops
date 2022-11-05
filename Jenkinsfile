@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout GIT') {
             steps {
                 echo 'Pulling ...' ;
-                 git branch: 'master',
+                 git branch: 'main',
                  url : 'https://github.com/ElBehiMahdi/spring-devops.git';           
             }
         }
